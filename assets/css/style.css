@@ -92,17 +92,23 @@ button:hover {
 	
 }
 
-h2.intro__text{
+.intro h2{
 	width: 100%;
 	font-size: 26px;
 	padding-top: 60px;
 }
 
-p.intro__text{
+.intro span{
 	width: 100%;
-	font-size: 76px;
+	font-size: 8rem;
 	font-weight: 700;
 
+}
+
+@media (max-width: 767px) {
+	.intro span {
+		font-size: 6rem;
+	}
 }
 
 /*features*/
