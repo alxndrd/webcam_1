@@ -1,0 +1,154 @@
+html, body {
+	margin: 0 auto;
+	padding: 0 auto;
+	box-sizing: border-box;
+}
+
+	
+.wrapper {
+	width: 100%;
+}
+
+
+p{
+	text-align: center;
+	font-size: 16px;
+}
+
+hr{
+	border-top: 5px solid #65bbffb8;
+	width: 25%;
+	border-radius: 5px;
+}
+
+/*header*/
+
+.nav li.sign-btn{
+	color: #fff;
+}
+
+button>a {
+	font-size: 20px;
+	font-color: #555;	
+}
+
+button>a:hover {
+	text-decoration: none;
+	color: #fff;
+}
+
+button:hover {
+	background-color: #65bbff
+}
+.margin-10 {
+	margin-top: 10px;
+}
+.nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    background-color: #65bbffb8;
+    color: #fff;
+}
+
+.btn {
+	background-color: #fff;
+	border: 2px solid #65bbff;
+}
+
+.header {
+	min-height: 50px;
+	padding: 10px;
+}
+
+.header img {
+	height: 50px;
+	margin-top: 2px;
+}
+
+.header a{
+	color: #7d7d7d;
+}
+
+.nav-pills {
+	font-size: 20px;
+	font-color: #555;
+}
+/*back img*/
+
+.container-fluid{
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+.intro{
+	width: 100%;
+	min-height: 500px;
+	background-image: url(../img/back.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	color: #fff;
+	text-shadow: 5px 5px 5px #7d7d7dcf;
+	
+}
+
+h2.intro__text{
+	width: 100%;
+	font-size: 26px;
+	padding-top: 60px;
+}
+
+p.intro__text{
+	width: 100%;
+	font-size: 76px;
+	font-weight: 700;
+
+}
+
+/*features*/
+
+.icon-image .thumbnail>img{
+	width: 25%;
+}
+
+.icon-image .thumbnail{
+	background-color: #f7f7f7;
+}
+
+.thumbnail{
+	max-height: 
+}
+
+
+/*demo*/
+
+.demo-text>p{
+	margin: 20px;
+	font-size: 18px;
+	line-height: 1.2;
+	font-weight: 500;
+}
+
+
+
+/*2 столбца с возможностями*/
+
+
+.live__stream>hr, .time__lapse>hr{
+	display: inline-block;
+	width: 10%;
+}
+.live__stream, .time__lapse{
+	font-size: 14px;
+	line-height: 2;	
+}
+
+
+
+
+
+
+
+
+
+
