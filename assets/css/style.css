@@ -43,6 +43,12 @@ button:hover {
 .margin-10 {
 	margin-top: 10px;
 }
+
+.navbar-default {
+    background-color: #ffffff;
+    border-color: #ffffff;
+}
+
 .nav>li>a:focus, .nav>li>a:hover {
     text-decoration: none;
     background-color: #65bbffb8;
@@ -54,17 +60,17 @@ button:hover {
 	border: 2px solid #65bbff;
 }
 
-.header {
+.navbar {
 	min-height: 50px;
 	padding: 10px;
 }
 
-.header img {
+.navbar img {
 	height: 50px;
 	margin-top: 2px;
 }
 
-.header a{
+.navbar a{
 	color: #7d7d7d;
 }
 
@@ -72,6 +78,29 @@ button:hover {
 	font-size: 20px;
 	font-color: #555;
 }
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #fff;
+    border-color: #65bbffb8;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #65bbffb8;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #65bbffb8;
+}
+
+@media (max-width: 767px) {
+	.nav-pills li {
+		display: inline-block;
+		font-size: 25px;
+		float: none;
+		text-align: center;
+	}	
+}
+
 /*back img*/
 
 .container-fluid{
@@ -106,9 +135,12 @@ button:hover {
 }
 
 @media (max-width: 767px) {
+	.intro {
+		padding-bottom: 50px;
+	}
 	.intro span {
 		font-size: 6rem;
-	}
+	}	
 }
 
 /*features*/
@@ -121,10 +153,6 @@ button:hover {
 	background-color: #f7f7f7;
 }
 
-.thumbnail{
-	max-height: 
-}
-
 
 /*demo*/
 
@@ -135,6 +163,11 @@ button:hover {
 	font-weight: 500;
 }
 
+@media (max-width: 767px) {
+	.demo-text h2 {
+		font-size: 2rem;
+	}
+}
 
 
 /*2 столбца с возможностями*/
@@ -145,8 +178,32 @@ button:hover {
 	width: 10%;
 }
 .live__stream, .time__lapse{
+	width: 100%
 	font-size: 14px;
 	line-height: 2;	
+	list-style: none;
+}
+
+.live__stream a, .time__lapse a {
+	color: #7d7d7d;
+	display: block;
+	margin: 0 auto;
+	width: 100px;
+	float: right;
+}
+.live__stream a:hover, .time__lapse a:hover {
+	color: #fff;
+	border: 2px solid #65bbffb8;
+	background-color: #65bbffb8;
+}
+
+
+@media (max-width: 767px) {
+	.live__stream, .time__lapse {
+		text-align: center;
+		line-height: 1.5;
+		list-style: none;
+	}
 }
 
 

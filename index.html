@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="zxx">
 <head>
@@ -26,13 +24,21 @@
 
       <!--HEADER-->
 
-  <div class="header">
-
-    <div class="container">
-
-      <div class="row">
-
-        <a href="#"><img src="assets/img/logo.png" alt=""></a>
+<nav class="navbar navbar-default">
+  <div class="container">
+  <!--   <!—Название сайта и кнопка раскрытия меню для мобильных -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a href="#"><img src="assets/img/logo.png" alt=""></a>
+    </div>
+ 
+<!--     <!—Само меню -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
         <ul class="nav nav-pills navbar-right">
           <li><a href="#">Главная</a></li>
@@ -41,12 +47,24 @@
           <li><a href="#">Личный кабинет</a></li>
           <li style="border: 2px solid #65bbffb8; border-radius: 5px; margin-bottom: 5px;"><a href="#">Регистрация</a></li>
         </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
 
+<!--   <div class="header">
+    <div class="container">
+      <div class="row">
+        <a href="#"><img src="assets/img/logo.png" alt=""></a>
+        <ul class="nav nav-pills navbar-right">
+          <li><a href="#">Главная</a></li>
+          <li><a href="#">Профиль</a></li>
+          <li><a href="#">Сообщения</a></li>
+          <li><a href="#">Личный кабинет</a></li>
+          <li style="border: 2px solid #65bbffb8; border-radius: 5px; margin-bottom: 5px;"><a href="#">Регистрация</a></li>
+        </ul>
       </div>
-
     </div> 
-
-  </div>       
+  </div>        -->
 
   <div class="margin-8"></div>
 
@@ -119,13 +137,11 @@
               <div class="container">
 
                 <div class="demo-text">
-
                   <h2 class="text-center" style="font-weight: 600;">Продемонстрируйте свое местоположение или проект</h2>
                   <hr>
                   <p class="text-center">Привлекайте зрителей, показывая, что происходит прямо сейчас в вашем регионе.</p>
                   <p class="text-center">Покажите последние часы вашего великолепного вида, сжатые до нескольких секунд.</p>
-
-                </div>
+              </div> 
 
                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 align-vertical">
                   <div class="thumbnail">
@@ -164,8 +180,8 @@
 
          <div class="container">
                     <div class="row">
-
-                      <div class="live__stream col-lg-5 col-md-6 col-sm-6 col-xs-8">
+                  
+                      <div class="live__stream col-lg-5 col-md-6 col-sm-6 col-xs-12">
                         <h2>LIVE STREAMING</h2>
                         <hr>
                         <p>Give your potential customers access to your business with a live stream. We connect to your camera stream and copy or transcode it to YouTube Live or other services.</p>
@@ -175,13 +191,14 @@
                           <li>Lorem Ipsum является стандартной "рыбой"</li>
                           <li>Lorem Ipsum является стандартной "рыбой"</li>
                         </ul>
+                        <a class="btn btn-info" href="#">Читать</a>
                       </div>
 
                       <div class="live__stream col-lg-2">
 
                       </div>
 
-                      <div class="time__lapse col-lg-5 col-md-6 col-sm-6 col-xs-8">
+                      <div class="time__lapse col-lg-5 col-md-6 col-sm-6 col-xs-12">
                         <h2>TIME-LAPSE</h2>
                         <hr>
                         <p>Give your potential customers access to your business with a live stream.We connect to your camera stream and copy or transcode it to YouTube Live or other services.</p>
@@ -191,7 +208,7 @@
                           <li>Lorem Ipsum является стандартной "рыбой"</li>
                           <li>Lorem Ipsum является стандартной "рыбой"</li>
                         </ul>
-                        <a href="#">Читать</a>
+                        <a class="btn btn-info" href="#">Читать</a>
                       </div>
 
                     </div>
@@ -208,4 +225,10 @@
       </div>  
 
               <div class="footer"></div>       
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+          <!-- Include all compiled plugins (below), or include individual files as needed -->
+          <script src="assets/js/bootstrap.min.js"></script>
 </body>
+</html>
