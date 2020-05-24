@@ -4,11 +4,14 @@ html, body {
 	box-sizing: border-box;
 }
 
-	
+
 .wrapper {
 	width: 100%;
 }
 
+li{
+	list-style: none;
+}
 
 p{
 	text-align: center;
@@ -29,7 +32,7 @@ hr{
 
 button>a {
 	font-size: 20px;
-	font-color: #555;	
+	font-color: #555;
 }
 
 button>a:hover {
@@ -98,7 +101,7 @@ button:hover {
 		font-size: 25px;
 		float: none;
 		text-align: center;
-	}	
+	}
 }
 
 /*back img*/
@@ -118,7 +121,7 @@ button:hover {
 	background-position: center;
 	color: #fff;
 	text-shadow: 5px 5px 5px #7d7d7dcf;
-	
+
 }
 
 .intro h2{
@@ -140,7 +143,7 @@ button:hover {
 	}
 	.intro span {
 		font-size: 6rem;
-	}	
+	}
 }
 
 /*features*/
@@ -180,7 +183,7 @@ button:hover {
 .live__stream, .time__lapse{
 	width: 100%
 	font-size: 14px;
-	line-height: 2;	
+	line-height: 2.5;
 	list-style: none;
 }
 
@@ -200,8 +203,8 @@ button:hover {
 
 @media (max-width: 767px) {
 	.live__stream, .time__lapse {
-		text-align: center;
-		line-height: 1.5;
+		text-align: left;
+		line-height: 2;
 		list-style: none;
 	}
 }
@@ -216,27 +219,41 @@ footer {
     text-decoration: none;
 }
 
+footer a{
+	font-size: 20px;
+	clear: right;
+}
+
 footer a:hover, a:focus{
 	color: #65bbffb8;
 	text-decoration: none;
 }
 
-footer a, footer li{
-	margin: 5px;
-	display: inline-block;
-	font-weight: 600;
+footer ul, footer a, footer li{
+	margin: 20px;
+	font-weight: 500;
 	color: #7d7d7d;
 }
 
-footer span{
-	font-size: 15px;
-	margin: 50px; 
+
+@media (max-width: 767px) {
+	
+	footer {
+	background: #f7f7f7;
+    min-height: 100px;
+    padding: 17px 0 18px 0;
+    margin-top: 100px;
+    text-decoration: none;
 }
 
+	footer a{
+		margin: 0 auto;
+	}
 
 
-
-
-
-
-
+	footer hr {
+		display: block;
+		width: 3rem;
+		margin: 5px;
+	}
+}
