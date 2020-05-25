@@ -164,6 +164,11 @@ button:hover {
 	list-style: none;
 }
 
+.live__stream li, .time__lapse li {
+	list-style-image: url(../img/list-logo.png);
+	list-style-position: outside;
+}
+
 .live__stream a, .time__lapse a {
 	color: #7d7d7d;
 	display: block;
@@ -176,7 +181,6 @@ button:hover {
 	border: 2px solid #65bbffb8;
 	background-color: #65bbffb8;
 }
-
 
 footer {
     background: #f7f7f7;
@@ -227,6 +231,11 @@ footer ul, footer a, footer li{
 		text-align: left;
 		line-height: 2;
 		list-style: none;
+	}
+
+	.live__stream ul, .time__lapse ul {
+		list-style-image: url(../img/logo.png);
+		list-style-position: inside;
 	}
 
 	footer {
